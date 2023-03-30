@@ -1,1 +1,123 @@
-@@||clients4.google.com 
+#From pihole common whitelist https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212
+
+#Google maps and other services pihole common whitelist
+@@||clients4.google.com^$important
+@@||clients2.google.com^$important
+
+#Youtube history pihole common
+@@||s.youtube.com^$important
+@@||video-stats.l.google.com^$important
+
+#Google play issues from pihole common
+@@||android.clients.google.com^$important
+
+#Google keep from pihole common
+@@||reminders-pa.googleapis.com^$important
+@@||firestore.googleapis.com^$important
+
+#Google fonts issues from pihole common
+@@||gstaticadssl.l.google.com^$important
+
+#Gmail pihole common
+@@||googleapis.l.google.com^$important
+
+#Android tv pihole common
+@@||redirector.gvt1.com^$important
+
+#Microsoft internet test pihole
+@@||www.msftconnecttest.com^$important
+@@||www.msftncsi.com^$important
+
+#Microsoft web pihole
+@@||outlook.office365.com^$important
+@@||products.office.com^$important
+@@||c.s-microsoft.com^$important
+@@||i.s-microsoft.com^$important
+@@||login.live.com^$important
+@@||login.microsoftonline.com^$important
+
+#Bitlocker backup pihole
+@@||g.live.com^$important
+
+#Microsoft store pihole (not sure you want this but oh well)
+@@||dl.delivery.mp.microsoft.com^$important
+@@||geo-prod.do.dsp.mp.microsoft.com^$important
+@@||displaycatalog.mp.microsoft.com^$important
+
+#Windows update pihole
+@@||sls.update.microsoft.com.akadns.net^$important
+@@||fe3.delivery.dsp.mp.microsoft.com.nsatc.net^$important
+@@||tlu.dl.delivery.mp.microsoft.com^$important
+
+#Edge browser update pihole
+@@||msedge.api.cdp.microsoft.com^$important
+
+#Xbox live pihole
+@@||clientconfig.passport.net^$important
+
+#Live achievements pihole
+@@||v10.events.data.microsoft.com^$important
+@@||v20.events.data.microsoft.com^$important
+
+#Xbox live messaging pihole
+@@||client-s.gateway.messenger.live.com^$important
+
+#Xbox store app pihole
+@@||arc.msn.com^$important
+
+#EA play xbox pihole
+@@||activity.windows.com^$important
+
+#Other similar see https://www.reddit.com/r/xboxone/comments/5khrrl/achievements_not_unlocking/ and
+#https://www.reddit.com/r/xboxone/comments/5l7bm1/tech_piholeother_dns_users_additional_whitelist/
+@@||xbox.ipv6.microsoft.com^$important
+@@||device.auth.xboxlive.com^$important
+@@||www.msftncsi.com^$important
+@@||title.mgt.xboxlive.com^$important
+@@||xsts.auth.xboxlive.com^$important
+@@||title.auth.xboxlive.com^$important
+@@||ctldl.windowsupdate.com^$important
+@@||attestation.xboxlive.com^$important
+@@||xboxexperiencesprod.experimentation.xboxlive.com^$important
+@@||xflight.xboxlive.com^$important
+@@||cert.mgt.xboxlive.com^$important
+@@||xkms.xboxlive.com^$important
+@@||def-vef.xboxlive.com^$important
+@@||notify.xboxlive.com^$important
+@@||help.ui.xboxlive.com^$important
+@@||licensing.xboxlive.com^$important
+@@||eds.xboxlive.com^$important
+@@||www.xboxlive.com^$important
+@@||v10.vortex-win.data.microsoft.com^$important
+@@||settings-win.data.microsoft.com^$important
+
+#Office pihole
+@@||officeclient.microsoft.com^$important
+
+#Spotify pihole
+@@||spclient.wg.spotify.com^$important
+@@||apresolve.spotify.com^$important
+@@||api-tv.spotify.com^$important
+
+#Godaddy email buttons pihole
+@@||imagesak.secureserver.net^$important
+
+#Geforce now pihole
+@@||gfwsl.geforce.com^$important
+
+#origin savegame sync pihole
+@@||cloudsync-prod.s3.amazonaws.com^$important
+
+#Reddit pihole
+@@||styles.redditmedia.com^$important
+@@||www.redditstatic.com^$important
+@@||reddit.map.fastly.net^$important
+@@||www.redditmedia.com^$important
+@@||reddit-uploaded-media.s3-accelerate.amazonaws.com^$important
+
+#DPD tracking pihole
+@@||tracking.dpd.de^$important
+
+#Whatsapp pihole
+@@||wa.me^$important
+@@||www.wa.me^$important
